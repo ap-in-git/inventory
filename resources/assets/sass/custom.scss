@@ -1,0 +1,219 @@
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin-bottom: 40px;
+
+
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.white-text{
+  color:white !important;
+}
+
+.m-t-5{
+  margin-top: 10px;
+}
+.full-width{
+  width: 100%;
+}
+
+.jumbotron {
+
+  // background: #358CCE;
+  color: #FFF;
+  border-radius: 0px;
+  margin-bottom: 15px;
+}
+.jumbotron-sm { padding-top: 24px;
+  padding-bottom: 24px;
+}
+.jumbotron small {
+  color: #FFF;
+}
+.h1 small {
+  font-size: 24px;
+}
+.blue{
+  background:#358CCE !important;
+}
+.black-background{
+  background: #212121 !important;
+
+}
+
+//css for featured project
+
+
+#featured{
+  background-color: #effcd9;
+  padding:2.8125rem;
+  .section-title{
+    color:#959595;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  img{
+    width: 100%;
+  }
+
+}
+// css for top products
+#top{
+
+  padding:2.8125rem;
+  .section-title{
+    color:#959595;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  img{
+    width: 100%;
+  }
+}
+
+
+//css for testimonial
+#testimonial{
+  background-color: #efefef;
+  padding:2.8125rem;
+  .section-title{
+    color:#959595;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .user-name{
+     text-align: center;
+     font-weight: bold;
+     font-size: 20px;
+  }
+  .designation{
+    font-weight:150;
+    font-size:16px;
+
+
+  }
+.card{
+  background-color: white;
+  img{
+    height:200px;
+    width:100%;
+  }
+  p{
+  word-wrap: break-word;
+  padding: 5px;
+
+  }
+}
+
+}
+
+.p-t-b-4{
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+
+}
+.d-flex{
+   display: flex !important;
+
+
+}
+
+#footer-section{
+
+
+  footer{
+    color:white !important;
+    .sub-footer{
+      background: #58a5f0;
+      h6{
+        font-size: 2rem;
+      }
+      p{
+        a{
+          background-color: transparent;
+          color:white;
+          font-size: 18px;
+          text-decoration: none;
+        }
+      }
+
+    }
+            .col-sm-6{
+              h6{
+                font-size: 2rem;
+              }
+            }
+
+            .col-sm-4{
+              .icons-sm{
+                padding: 8px;
+                margin: 10px;
+                font-size: 24px;
+              }
+            }
+
+            .m-b-5{
+              margin-bottom: 10px;
+            }
+
+            .footer-copyright{
+              overflow: hidden;
+              height: 50px;
+              line-height: 50px;
+              font-size: 15px;
+              background: #004c8c;
+              color: rgba(255,255,255,.6);
+
+            }
+
+  }
+}
+
+.m-r-5{
+margin-right: 10px;
+}
+
+.category-sidebar{
+  font-weight: 500;
+  font-size: 35px;
+  font-family:cursive;
+}
+
+
+
+#companyOverview,#companyLeaderShip{
+  color: #333;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+.media-heading{
+  font-weight: bold;
+}
+.media-profile{
+  margin-bottom: 40px;
+}
+
+#coreValues{
+  background-color: rgb(0, 164, 217);
+
+  color: white;
+  padding-top: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  -webkit-clip-path:polygon(0 0, calc(50% - 30px) 0, 50% calc(0% + 30px), calc(50% + 30px) 0, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, calc(50% - 30px) 0, 50% calc(0% + 30px), calc(50% + 30px) 0, 100% 0, 100% 100%, 0 100%);
+  h2{
+    font-weight: bold;
+  }
+}
